@@ -25,10 +25,18 @@ function createInputBox() {
   // Create a result message element
   var resultMessage = document.createElement("p");
 
+  var giveUpButton = document.createElement("button");
+  giveUpButton.textContent = "Give Up";
+
+  var useHintButton = document.createElement("button");
+  useHintButton.textContent = "Use a Hint";
+
   // Append the input box, check button, and result message to the modal
   modal.appendChild(inputBox);
   modal.appendChild(checkButton);
   modal.appendChild(resultMessage);
+  modal.appendChild(giveUpButton);
+  modal.appendChild(useHintButton);
 
   // Add an event listener to the "Check" button
   checkButton.addEventListener("click", function () {

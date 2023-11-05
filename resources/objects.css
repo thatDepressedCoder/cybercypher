@@ -176,11 +176,12 @@ input[type="text"] {
 /* Style for the "Check" button container */
 .check-button-container {
   text-align: center; /* Center the button horizontally */
+    margin-left: 300px;
 }
 
 /* Style for the "Check" button */
-button.check-button {
-  background-color: #4CAF50; /* Green background color */
+button {
+  background-color: darkred; /* Green background color */
   color: white; /* White text color */
   padding: 10px 20px; /* Padding for better spacing */
   border: none; /* No border */
@@ -188,10 +189,22 @@ button.check-button {
   cursor: pointer; /* Change cursor on hover */
   font-size: 16px; /* Font size */
   transition: background-color 0.3s; /* Smooth background color transition on hover */
+  margin: 10px;
+  display: block;
+  margin-left: 300px;
 }
 
 /* Style for the result message */
 p.result-message {
-  font-size: 16px; /* Font size */
+  font-size: 20px; /* Font size */
   margin-top: 10px; /* Margin for spacing */
+  color: white;
+}
+
+p {
+   color: white;
+   font-size: 20px;
+   display: block;
+   margin-left: 300px;
+
 }
