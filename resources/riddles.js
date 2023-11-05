@@ -8,6 +8,11 @@ var captionText = document.getElementById("inside_trash");
 
 // Function to create and display the input box
 function createInputBox() {
+  // Check if the input box already exists
+  if (modal.querySelector("input[type='text']")) {
+    return; // Input box already exists, so don't create it again
+  }
+
   // Create an input element
   var inputBox = document.createElement("input");
   inputBox.type = "text";
@@ -27,11 +32,14 @@ function createInputBox() {
 
   // Add an event listener to the "Check" button
   checkButton.addEventListener("click", function () {
-    // Get the user's input from the input field
-    const userAnswer = inputBox.value.trim();
+    // Get the user's input from the input field and convert it to lowercase
+    const userAnswer = inputBox.value.trim().toLowerCase();
 
-    // Check if the user's answer is correct
-    if (userAnswer === correctTrashAnswer) {
+    // Convert the correct answer to lowercase
+    const correctAnswerLower = correctTrashAnswer.toLowerCase();
+
+    // Check if the user's answer is correct (case-insensitive)
+    if (userAnswer === correctAnswerLower) {
       resultMessage.textContent = "Correct! You guessed the answer!";
     } else {
       resultMessage.textContent = "Sorry, that's not the correct answer. Try again.";
