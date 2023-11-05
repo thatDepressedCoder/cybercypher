@@ -1,0 +1,87 @@
+Riddle: 
+I am a guide in the digital sphere,
+Split into layers, my purpose is clear.
+From cables to browsers, I oversee all,
+Data's journey, big or small,
+What am I?
+What is the OSI model?
+7) Application 
+6) presentation
+5) session
+4) transport
+3) network
+2) data link 
+1) physical 
+
+Riddle: 
+We are the keys to the digital realm's gate,
+My ways are varied, never innate.
+Through wires and waves, I travel with might,
+Ensuring your data stays safe in the night.
+
+What methods are used to transmit data over a network?
+Unicast: single-user
+Multicast: multiple destinations 
+Broadcasting: one to all
+Riddle: 
+I am the trio of digital woes,
+In security realms, my presence grows.
+First, the potential harm looming near,
+Second, the weakness invites fear.
+Combined they birth the specter grim,
+Answer me this: what am I, on a whim?
+
+Answer: Threat, Vulnerability, and Risk
+
+Riddle: 
+I'm not made of brick or stone,
+Yet keep dangers far from home.
+Digital guard with an unseen wall,
+Holding back threats, big and small.
+Across networks, my vigil I keep,
+Answer me this: what am I, in this keep?
+Answer: Firewall 
+
+Riddle : 
+I am the cloak in the digital night,
+Guarding your data with all my might.
+Through hidden paths, I make my way,
+Shielding your presence from the light of day.
+A secret tunnel, a virtual gate,
+With me, your privacy is never too late.
+What am I, in this web of disguise,
+Keeping your online self from prying eyes?
+Answer: VPN
+
+Riddle: 
+Three letters stand guard in the digital domain,
+Preserving secrets, security their reign.
+Confidentiality, integrity, and availability, they say,
+Together they form a fort that keeps threats at bay.
+What am I, this digital protector, do you dare to say?
+Answer: CIA Triad 
+
+
+Riddle: 
+In the realm of connections, I hold sway,
+A protocol duo in the data highway.
+One governs how data packets steer,
+The other's the way they appear.
+Together they ensure the internet's zip,
+Tell me, what am I in this digital trip?
+Answer: TCP/IP
+What is DDos attack? 
+Answer: Distributed denial of service attack: the servers refused to provide the services to genuine clients due to flooding of attacks or crashing of attacks. 
+
+ What is traceroute?
+Answer: you trace the route data travels from source to destination on the internet
+
+
+Riddle: 
+In the realm where security reigns,
+I'm the shield against digital pains.
+I am a duo that stands as one,
+An extra layer when danger's begun.
+Hacking attempts may cause frustration,
+Tell me now, what is my designation?
+Answer: two-factor authentication
