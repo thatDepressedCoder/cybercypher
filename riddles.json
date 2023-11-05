@@ -1,0 +1,21 @@
+{
+	"riddles": [
+		{
+			"object": "monitor",
+			"question": "...",
+			"answer": "...",
+			"points": "10",
+			"path": "index.html",
+			"image": "resources/images/computer_monitor.png"
+		},
+		{
+			"object": "robot",
+			"question": "...",
+			"answer": "...",
+			"points": "10",
+			"path": "index.html",
+			"image": "resources/images/computer_monitor.png"
+		}
+	]
+	
+}
