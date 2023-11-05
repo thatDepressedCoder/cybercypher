@@ -1,16 +1,3 @@
-#trash {
-   position: absolute;
-   top: 590px;
-   left: 535px;
-   width: 200px;
-   border-radius: 5px;
-   cursor: pointer;
-   transition: 0.3s;
-}
-
-#trash:hover {
-   cursor: pointer;
-}
 
 #closed_drawer_table {
    position: absolute;
@@ -89,11 +76,28 @@
    cursor: pointer;
 }
 
+#trash {
+   position: absolute;
+   top: 590px;
+   left: 535px;
+   width: 200px;
+   border-radius: 5px;
+   cursor: pointer;
+   transition: 0.3s;
+}
+
+#trash:hover {
+   cursor: pointer;
+}
+
 #computer_monitor {
    position: absolute;
    top: 425px;
    left: 700px;
    width: 200px;
+   border-radius: 5px;
+   cursor: pointer;
+   transition: 0.3s;
 }
 
 #computer_monitor:hover {
@@ -105,6 +109,9 @@
    top: 585px;
    left: 925px;
    width: 100px;
+   border-radius: 5px;
+   cursor: pointer;
+   transition: 0.3s;
 }
 
 #written_paper:hover {
@@ -128,6 +135,9 @@
    top: 670px;
    left: 843px;
    width: 25px;
+   border-radius: 5px;
+   cursor: pointer;
+   transition: 0.3s;
 }
 
 #key:hover {
@@ -142,8 +152,46 @@
    top: 720px;
    left: 725px;
    width: 75px;
+   border-radius: 5px;
+   cursor: pointer;
+   transition: 0.3s;
 }
 
 #robot:hover {
    cursor: pointer;
+}
+/* Style for the input box */
+input[type="text"] {
+  width: 200px; /* Full width */
+  padding: 10px; /* Padding for better spacing */
+  margin: 10px 0; /* Margin for vertical spacing */
+  border: 1px solid #ccc; /* Border style */
+  border-radius: 5px; /* Rounded corners */
+  font-size: 16px; /* Font size */
+  margin-top: 250px;
+  margin-left: 300px;
+}
+
+}
+/* Style for the "Check" button container */
+.check-button-container {
+  text-align: center; /* Center the button horizontally */
+}
+
+/* Style for the "Check" button */
+button.check-button {
+  background-color: #4CAF50; /* Green background color */
+  color: white; /* White text color */
+  padding: 10px 20px; /* Padding for better spacing */
+  border: none; /* No border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Change cursor on hover */
+  font-size: 16px; /* Font size */
+  transition: background-color 0.3s; /* Smooth background color transition on hover */
+}
+
+/* Style for the result message */
+p.result-message {
+  font-size: 16px; /* Font size */
+  margin-top: 10px; /* Margin for spacing */
 }
