@@ -12,7 +12,7 @@ p {
    color: black;
 }
 
-#room {
+#wall1 {
    margin: 0;
    padding: 0;
    width: 1440px;
@@ -20,7 +20,21 @@ p {
    background-image: url("images/wall_with_door.png");
 }
 
-#room > * {
+#wall1 > * {
+   margin: 0;
+   padding: 0;
+   position: absolute;
+}
+
+#wall2 {
+   margin: 0;
+   padding: 0;
+   width: 1440px;
+   height: 900px;
+   background-image: url("images/empty_wall.png");
+}
+
+#wall2 > * {
    margin: 0;
    padding: 0;
    position: absolute;
@@ -39,6 +53,28 @@ p {
    background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(10,36,114));
 }
 
+
+#left_side {
+   position: absolute;
+   top: 450px;
+   left: 40px;
+   transform: rotateY(180deg);
+}
+
+#left_side:hover {
+   cursor: pointer;
+   border-top-right-radius: 50px;
+   border-bottom-right-radius: 50px;
+   background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(10,36,114));
+}
+
+
+#trash {
+   position: absolute;
+   top: 590px;
+   left: 535px;
+   width: 200px;
+}
 #closed_drawer_table {
    position: absolute;
    top: 550px;
@@ -56,8 +92,8 @@ p {
 #written_paper {
    position: absolute;
    top: 585px;
-   left: 950px;
-   width: 125px;
+   left: 925px;
+   width: 100px;
 }
 
 #lock {
