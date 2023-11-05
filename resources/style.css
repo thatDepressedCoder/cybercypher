@@ -18,11 +18,25 @@ p {
 	display: inline-flex;
 	align-items: center;
 	justify-content: center;
-	padding-left: 30px;
+	/*padding-left: 30px;*/
 	margin: 0;
 	font-size: 50px;
 	height: 70px;
 	width: 200px;
+}
+
+.timer-box {
+	width: 200px;
+	/* Set the width of the box */
+	height: 80px;
+	/* Set the height of the box */
+	border: 2px solid #000;
+	/* Set the border properties */
+	border-radius: 10px;
+	/* Adjust the border radius for rounded corners */
+	padding-top: 10px;
+	/* Add padding to the leftside the box */
+	margin-left: 40px;
 }
 
 #room {
