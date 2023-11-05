@@ -1,10 +1,10 @@
 // Get the modal
 var modal = document.getElementById("myModal");
-const correctTrashAnswer = "Firewall";
+const correctAnswer = "TCP/IP";
 
 // Get the image and insert it inside the modal - use its "alt" text as a caption
-var img = document.getElementById("trash");
-var captionText = document.getElementById("inside_trash");
+var img = document.getElementById("top_drawer");
+var captionText = document.getElementById("use_key");
 
 // Function to create and display the input box
 function createInputBox() {
@@ -36,22 +36,28 @@ function createInputBox() {
     const userAnswer = inputBox.value.trim().toLowerCase();
 
     // Convert the correct answer to lowercase
-    const correctAnswerLower = correctTrashAnswer.toLowerCase();
+    const correctAnswerLower = correctAnswer.toLowerCase();
 
     // Check if the user's answer is correct (case-insensitive)
     if (userAnswer === correctAnswerLower) {
       resultMessage.textContent = "Correct! You guessed the answer!";
+      navigateToDrawer(); // Call the navigation function
     } else {
       resultMessage.textContent = "Sorry, that's not the correct answer. Try again.";
     }
   });
+
+  function navigateToDrawer() {
+    // You can add the logic here to navigate to the "left_drawer" page
+    // For example, you can use window.location.href to redirect to the desired page
+    window.location.href = "wall1_left_drawer.html";
+  }
 }
 
 img.onclick = function () {
   modal.style.display = "block";
   captionText.innerHTML =
-    "I'm not made of brick or stone, Yet keep dangers far from home. Digital guard with an unseen wall, Holding back threats, big and small. Across networks, my vigil I keep, Answer me this: what am I, in this keep?";
-
+    "Three letters stand guard in the digital domain, Preserving secrets, security their reign. Confidentiality, integrity, and availability, they say, Together they form a fort that keeps threats at bay. What am I, this digital protector, do you dare to say?";
   // Call the function to create the input box
   createInputBox();
 };

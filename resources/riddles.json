@@ -37,7 +37,7 @@ var riddles = [
 	},
 	{
 		"question_num": "5",
-		"object": "final_1",
+		"object": "use_key",
 		"question": "Three letters stand guard in the digital domain, Preserving secrets, security their reign. Confidentiality, integrity, and availability, they say, Together they form a fort that keeps threats at bay. What am I, this digital protector, do you dare to say?",
 		"answer": "CIA Triad",
 		"points": "10",
