@@ -1,21 +1,34 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
 body {
 	background: black;
+	font-family: 'Roboto', sans-serif;
 	width: 100%;
 	height: 100%;
 	margin: 0;
 	padding: 0;
 }
+
 h1 {
 	font-weight: bold;
 }
+
 p {
 	color: black;
+	background-color: #fff;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0;
+	font-size: 5;
+	height: 70px;
+	width: 200px;
 }
 
 #room {
-  margin: 0;
-  padding: 0;
-  width: 1440px;
-  height: 900px;
-  background-image: url("images/wall_with_door.png");
+	margin: 0;
+	padding: 0;
+	width: 1440px;
+	height: 900px;
+	background-image: url("images/wall_with_door.png");
 }
