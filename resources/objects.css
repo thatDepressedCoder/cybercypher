@@ -20,6 +20,72 @@
    cursor: pointer;
 }
 
+#right_drawer_table {
+   position: absolute;
+   top: 550px;
+   left: 600px;
+   width: 580px;
+}
+
+#right_drawer_table:hover {
+   cursor: pointer;
+}
+
+#left_drawer_table {
+   position: absolute;
+   top: 550px;
+   left: 590px;
+   width: 550px;
+}
+
+#left_drawer_table:hover {
+   cursor: pointer;
+}
+
+#top_drawer_table {
+   position: absolute;
+   top: 560px;
+   left: 600px;
+   width: 550px;
+}
+
+#top_drawer_table:hover {
+   cursor: pointer;
+}
+
+#left_drawer {
+   position: absolute;
+   top: 715px;
+   left: 648px;
+   width: 220px;
+}
+
+#left_drawer:hover {
+   cursor: pointer;
+}
+
+#right_drawer {
+   position: absolute;
+   top: 715px;
+   left: 877px;
+   width: 220px;
+}
+
+#right_drawer:hover {
+   cursor: pointer;
+}
+
+#top_drawer {
+   position: absolute;
+   top: 664px;
+   left: 648px;
+   width: 450px;
+}
+
+#top_drawer:hover {
+   cursor: pointer;
+}
+
 #computer_monitor {
    position: absolute;
    top: 425px;
@@ -50,5 +116,31 @@
 }
 
 #lock:hover {
+   cursor: pointer;
+}
+
+#key {
+   position: absolute;
+   transform: rotate(90deg);
+   top: 670px;
+   left: 843px;
+   width: 25px;
+}
+
+#key:hover {
+   top: 785px;
+   left: 843px;
+   width: 25px;
+   cursor: pointer;
+}
+
+#robot {
+   position: absolute;
+   top: 720px;
+   left: 725px;
+   width: 75px;
+}
+
+#robot:hover {
    cursor: pointer;
 }
