@@ -3,6 +3,9 @@
    top: 590px;
    left: 535px;
    width: 200px;
+   border-radius: 5px;
+   cursor: pointer;
+   transition: 0.3s;
 }
 
 #trash:hover {

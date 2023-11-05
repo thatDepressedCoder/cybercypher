@@ -8,13 +8,22 @@
       <link rel="icon" type="image/x-icon" href="#">
       <link rel="stylesheet" href="../resources/wall.css">
       <link rel="stylesheet" href="../resources/objects.css">
+      <link rel="stylesheet" href="../resources/popup.css">
+      <script src="../resources/riddles.js"></script>
    </head>
 
    <body>
       <div id="wall1">
          <a href=wall4.html><img id="left_side" src="../resources/images/arrow.png" title="Wall 4" alt="Wall 4"></a>
          <a href=wall2.html><img id="right_side" src="../resources/images/arrow.png" title="Wall 2" alt="Wall 2"></a>
-         <a href=objects/trash.html><img id="trash" src="../resources/images/trash_can.png" title="Look inside Trash Can" alt="Trash Can"></a>
+         
+         <img id="trash" src="../resources/images/trash_can.png" title="Look inside Trash Can" alt="Trash Can">
+         <div id="myModal" class="modal">
+           <span class="close">&times;</span>
+           <div id="inside_trash"></div>
+         </div>
+
+
          <img id="closed_drawer_table" src="../resources/images/closed_drawer_table.png" title="Table" alt="Table">
          <a href=objects/paper.html><img id="written_paper" src="../resources/images/written_paper.png" title="Read Paper" alt="Written Paper"></a>
          <a href=objects/computer_monitor.html><img id="computer_monitor" src="../resources/images/computer_monitor.png" title="Access Computer Monitor" alt="Computer Monitor"></a>

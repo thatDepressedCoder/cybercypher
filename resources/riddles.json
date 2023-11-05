@@ -1,0 +1,47 @@
+var riddles = [
+	{
+		"question_num": "1",
+		"object": "inside_trash",
+		"question": "I'm not made of brick or stone,Yet keep dangers far from home.Digital guard with an unseen wall, Holding back threats, big and small. Across networks, my vigil I keep, Answer me this: what am I, in this keep?",
+		"answer": "Firewall",
+		"points": "10",
+		"path": "index.html",
+		"image": "resources/images/computer_monitor.png"
+	},
+	{
+		"question_num": "2",
+		"object": "view_monitor",
+		"question": "I am the trio of digital woes, In security realms, my presence grows. First, the potential harm looming near, Second, the weakness invites fear. Combined they birth the specter grim, Answer me this: what am I, on a whim?",
+		"answer": "Threat, Vulnerability, Risk",
+		"points": "15",
+		"path": "index.html",
+		"image": "resources/images/computer_monitor.png"
+	},
+	{
+		"question_num": "3",
+		"object": "read_paper",
+		"question": "I am the cloak in the digital night, Guarding your data with all my might. Through hidden paths, I make my way, Shielding your presence from the light of day. A secret tunnel, a virtual gate, With me, your privacy is never too late. What am I, in this web of disguise,Keeping your online self from prying eyes?",
+		"answer": "VPN",
+		"points": "20",
+		"path": "index.html",
+		"image": "resources/images/computer_monitor.png"
+	},
+	{
+		"question_num": "4",
+		"object": "take_robot",
+		"question": "In the realm where security reigns, I'm the shield against digital pains. I am a duo that stands as one,An extra layer when danger's begun. Hacking attempts may cause frustration, Tell me now, what is my designation?",
+		"answer": "TCP/IP",
+		"points": "25",
+		"path": "index.html",
+		"image": "resources/images/computer_monitor.png"
+	},
+	{
+		"question_num": "5",
+		"object": "final_1",
+		"question": "Three letters stand guard in the digital domain, Preserving secrets, security their reign. Confidentiality, integrity, and availability, they say, Together they form a fort that keeps threats at bay. What am I, this digital protector, do you dare to say?",
+		"answer": "CIA Triad",
+		"points": "10",
+		"path": "index.html",
+		"image": "resources/images/computer_monitor.png"
+	}
+]
