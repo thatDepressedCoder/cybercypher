@@ -1,22 +1,21 @@
 <?php
 	$playerScore = 0;
-	$questions = array("John", "Mary", "Peter", "Sally");
-	$points = array("John", "Mary", "Peter", "Sally");
 
-	$questionJSON = json_encode($questions);
-	$pointsJSON = json_encode($points);
+	$path = 'riddles.json';
+	$jsonString = file_get_contents($path);
+	$jsonData = json_decode($jsonString, true);
+	var_dump($jsonData);
 
 	function getQuestion($questionNum) {
-		return $questions[$questionNum];
+		$idx = 0;
+		while ($jsonData->questionNum == $questionNum) {
+			
+		}
 	}
 
 	function addPoints($playerScore, $questionNum) {
 		return $playerScore + $points[$questionNum];
 	}
 
-	$path = 'riddles.json';
-	$jsonString = file_get_contents($path);
-	$jsonData = json_decode($jsonString, true);
-	var_dump($jsonData);
 
 ?>
