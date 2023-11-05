@@ -1,4 +1,4 @@
-# rpihackathon2023
+# rpihackathon2023-cybercipher
 
 Resources:
 
